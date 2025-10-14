@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #121212;
+  color: #f1f1f1;
+  line-height: 1.7;
+  padding: 0 10%;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  color: #ffcc00;
+  letter-spacing: 1px;
+}
+
+header .back {
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+header .back:hover {
+  text-decoration: underline;
+}
+
+/* Intro */
+.intro {
+  margin: 2rem 0;
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.intro h2 {
+  color: #ffcc00;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  color: #ffcc00;
+  margin-top: 1rem;
+  border-left: 4px solid #ffcc00;
+  padding-left: 1rem;
+}
+
+/* Reviews list */
+.reviews-list {
+  margin: 2rem 0;
+}
+
+.reviews-list h2 {
+  color: #ffcc00;
+  margin-bottom: 1rem;
+}
+
+.reviews-list ul {
+  list-style: none;
+}
+
+.reviews-list li {
+  margin: 1rem 0;
+}
+
+.reviews-list a {
+  text-decoration: none;
+  color: #121212;
+  background: #ffcc00;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.reviews-list a:hover {
+  background: #ffd633;
+}
+
+/* Movie section */
+.movie {
+  background: #1e1e1e;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(255, 204, 0, 0.2);
+}
+
+.movie h2 {
+  color: #ffcc00;
+  margin-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.review {
+  color: #ddd;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid #333;
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
